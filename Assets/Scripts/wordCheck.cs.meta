@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 9a55a474b004ef94c9344dad03c51317
+labels:
+- dictionary
+- scrabble
+- spelling
+- misspelling
+- cross-word
+- crossword
+- word
+- wordgames
+- glossary
+- list
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

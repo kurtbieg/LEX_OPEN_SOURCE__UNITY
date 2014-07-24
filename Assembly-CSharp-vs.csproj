@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{87BB50F2-AB38-0DF2-8915-5C3C1E620099}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_0;UNITY_4_5;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\EndGameAnimation.cs" />
+     <Compile Include="Assets\Scripts\ExtensionMethods.cs" />
+     <Compile Include="Assets\Scripts\GUI_Btns.cs" />
+     <Compile Include="Assets\Scripts\LetterBox.cs" />
+     <Compile Include="Assets\Scripts\LetterTileAnim.cs" />
+     <Compile Include="Assets\Scripts\LevelBar.cs" />
+     <Compile Include="Assets\Scripts\Master.cs" />
+     <Compile Include="Assets\Scripts\PlayerInfo.cs" />
+     <Compile Include="Assets\Scripts\SaveManager.cs" />
+     <Compile Include="Assets\Scripts\WordBox.cs" />
+     <Compile Include="Assets\Scripts\WordBoxCorner.cs" />
+     <Compile Include="Assets\Scripts\wordCheck.cs" />
+     <Compile Include="Assets\iTween\Plugins\iTween.cs" />
+     <None Include="Assets\Resources\Dictionary\t.txt" />
+     <None Include="Assets\Resources\Dictionary\m.txt" />
+     <None Include="Assets\Resources\Dictionary\z.txt" />
+     <None Include="Assets\Resources\Dictionary\g.txt" />
+     <None Include="Assets\Resources\Dictionary\c.txt" />
+     <None Include="Assets\Resources\Dictionary\h.txt" />
+     <None Include="Assets\Resources\Dictionary\b.txt" />
+     <None Include="Assets\Resources\Dictionary\x.txt" />
+     <None Include="Assets\Resources\Dictionary\v.txt" />
+     <None Include="Assets\Resources\Dictionary\f.txt" />
+     <None Include="Assets\Resources\Dictionary\q.txt" />
+     <None Include="Assets\Resources\Dictionary\i.txt" />
+     <None Include="Assets\Resources\Dictionary\o.txt" />
+     <None Include="Assets\Resources\Dictionary\a.txt" />
+     <None Include="Assets\Resources\Dictionary\d.txt" />
+     <None Include="Assets\Resources\Dictionary\k.txt" />
+     <None Include="Assets\Resources\Dictionary\j.txt" />
+     <None Include="Assets\Resources\Dictionary\u.txt" />
+     <None Include="Assets\Resources\Dictionary\y.txt" />
+     <None Include="Assets\Resources\Dictionary\letters.txt" />
+     <None Include="Assets\Resources\Dictionary\l.txt" />
+     <None Include="Assets\Resources\Shaders\Mask.shader" />
+     <None Include="Assets\LICENSE.txt" />
+     <None Include="Assets\Resources\Dictionary\n.txt" />
+     <None Include="Assets\Resources\Dictionary\p.txt" />
+     <None Include="Assets\Resources\Dictionary\r.txt" />
+     <None Include="Assets\Resources\Dictionary\e.txt" />
+     <None Include="Assets\Resources\Dictionary\w.txt" />
+     <None Include="Assets\Resources\Dictionary\s.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
